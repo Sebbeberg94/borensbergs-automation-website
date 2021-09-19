@@ -1,0 +1,67 @@
+* {
+   border: solid 1px #000000; 
+}
+
+.background {
+    background: linear-gradient(rgba(41, 41, 41, 0.1), 
+    rgba(202, 202, 202, 0.5)), url("images/3d-abstract.jpg") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main {
+    display: grid;
+    justify-items: center;
+    
+    margin-inline: 200px;
+    grid-template-rows:max-content;
+}
+
+.main article {
+    width: 80%;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.contact-info{
+    display: flex;
+    justify-self: center;
+    background: rgba(255, 255, 255, 0.9);
+    width: 80%;
+    margin-top: 20px;
+    padding: 5px;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    margin-inline: 200px;
+}
+
+.header h1 {
+    margin-left: 25px;
+    justify-self: center;
+    
+}
+
+.navbar {
+    height: 100%;
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.navbar a {
+    font-size: 25px;
+    margin-inline: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
